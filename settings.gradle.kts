@@ -20,4 +20,6 @@ include(":utils")
 include(":core_ui")
 include(":navigator")
 include(":core:onboarding")
+include(":core:dto")
+include(":network")
 

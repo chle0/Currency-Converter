@@ -29,4 +29,5 @@ sealed class CurrencyConverterScreens(
     val name: String = route.appendArguments(navArguments)
 
     object SplashScreen : CurrencyConverterScreens("SplashScreen")
+    object WelcomeScreen : CurrencyConverterScreens("WelcomeScreen")
 }

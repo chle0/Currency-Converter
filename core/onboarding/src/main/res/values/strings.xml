@@ -2,4 +2,6 @@
 <resources>
     <string name="welcome_title">Welcome</string>
     <string name="continue_btn">Continue</string>
+    <string name="country">Country</string>
+    <string name="language">Language</string>
 </resources>

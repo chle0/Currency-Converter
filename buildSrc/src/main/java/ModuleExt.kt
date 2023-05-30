@@ -4,4 +4,6 @@ object ModuleExt {
     const val Core_Ui = ":core_ui"
     const val Navigator = ":navigator"
     const val OnBoarding = ":core:onboarding"
+    const val Dto = ":core:dto"
+    const val Network = ":network"
 }

@@ -16,7 +16,7 @@ import com.google.accompanist.navigation.material.ModalBottomSheetLayout
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import tech.task.currencyconverter.core_ui.theme.CurrencyConverterTaskTheme
-import tech.task.currencyconverter.core.onboarding.navigation.onBoardingNav
+import tech.task.currencyconverter.core.onboarding.presentation.navigation.onBoardingNav
 import tech.task.currencyconverter.navigator.CurrencyConverterRoute
 
 @ExperimentalCoroutinesApi

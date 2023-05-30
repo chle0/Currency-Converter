@@ -1,4 +1,4 @@
-package tech.task.currencyconverter.core.onboarding.screens
+package tech.task.currencyconverter.core.onboarding.presentation.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -14,6 +14,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.navigation.NavHostController
 import kotlinx.coroutines.delay
 import tech.task.currencyconverter.core.onboarding.R
+import tech.task.currencyconverter.navigator.CurrencyConverterScreens
 
 @Composable
 fun SplashScreen(navController: NavHostController) {
@@ -21,7 +22,7 @@ fun SplashScreen(navController: NavHostController) {
     LaunchedEffect(key1 = true) {
         delay(3000)
         navController.popBackStack()
-        //navController.navigate(CurrencyConverterScreens.MenuScreen.route)
+        navController.navigate(CurrencyConverterScreens.WelcomeScreen.route)
     }
     Splash()
 }

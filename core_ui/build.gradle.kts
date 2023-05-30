@@ -33,6 +33,7 @@ android {
 dependencies {
 
     implementation(project(ModuleExt.Utils))
+    implementation(project(ModuleExt.Dto))
 
     api(Image_Loading_Coil.COIL)
     api(Image_Loading_Coil.COIL_SVG)

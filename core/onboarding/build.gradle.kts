@@ -2,6 +2,7 @@ plugins {
     id(BuildPlugins.ANDROID_LIBRARY_PLUGIN)
     id(BuildPlugins.KOTLIN_ANDROID_PLUGIN)
     id(BuildPlugins.KOTLIN_KAPT)
+    id(BuildPlugins.DAGGER_HILT)
 }
 
 android {
@@ -33,10 +34,19 @@ dependencies {
 
     implementation(project(ModuleExt.Core_Ui))
     implementation(project(ModuleExt.Navigator))
+    implementation(project(ModuleExt.Dto))
+    implementation(project(ModuleExt.Network))
+
+    implementation(Image_Loading_Coil.LOTTIE)
+
+    api(Networking.RETROFIT)
+    api(Networking.RETROFIT_GSON)
+    implementation(Networking.LOGGING)
+
+    implementation(Logger.TIMBER)
 
     /*HILT*/
     implementation(Hilt.hiltAndroid)
-    implementation(Image_Loading_Coil.LOTTIE)
     kapt(Hilt.hiltCompiler)
     kapt(Hilt.hiltAndroidCompiler)
 

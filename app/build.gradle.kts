@@ -56,6 +56,8 @@ dependencies {
     api(project(ModuleExt.Core_Ui))
     api(project(ModuleExt.OnBoarding))
     api(project(ModuleExt.Navigator))
+    api(project(ModuleExt.Dto))
+    api(project(ModuleExt.Network))
 
     // Compose
     val composeBom = platform(Compose.bom)

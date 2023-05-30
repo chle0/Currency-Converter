@@ -23,7 +23,7 @@ class Dimensions(
     val plane_3: Dp,
     val plane_4: Dp,
     val plane_5: Dp,
-    val spaceDefault: Dp = 0.dp,
+    val spaceDefault: Dp = 12.dp,
     val spaceExtraSmall: Dp = 4.dp,
     val spaceSmall: Dp = 8.dp,
     val spaceMedium: Dp = 16.dp,
